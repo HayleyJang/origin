@@ -5,3 +5,17 @@ How is the staging area different from the working directory and the repository?
 	Staging area is a place to store selected files before commit. It allow to commit on logically related multiple files at a time.
 
 How can you use the staging area to make sure you have one commit per logical change?
+	commit only logically related files at a time.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	When you want to have multiple versions or experiment new features that you are not sure yet if it would work, creating branches would be helpful.
+
+How do the diagrams help you visualize the branch structure?
+	Diagrams visualize branch structure which makes it easier to see which branches contain which commits independently.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	Merging two branches means merging a branch into another branch, and it keeps common parts and takes logical changes by comparing with the commit just before diverging.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Pros: easier and quick.
+	Cons: might miss important commits and take wrong commits instead.
