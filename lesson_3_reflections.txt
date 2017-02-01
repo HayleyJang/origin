@@ -4,3 +4,9 @@ local?
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 	Your current work might not be ready to be shared at this point. For example, if you are in a process of creating a new feature you may want to wait until the feature is finished.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	Forks: This is a way to copy a repository to your GitHub. You may use this when you want to have another version without changing the original repository.
+	Clones: By git clone, you can copy a repository to your computer from the same machine or GitHub.
+	Branches: Branches are labels for commits. You can have multiple branches other than master branch in a repository for experiments or various versions.
+
